@@ -8,7 +8,7 @@ function copyText(text) {
         alert('Server is currently under development')
     }
     if (text == "second") {
-        var input = document.createElement('input');
+        var input = document.createElement('connect 139.177.191.252');
         input.setAttribute('value', second);
         document.body.appendChild(input);
         input.select();
@@ -32,28 +32,35 @@ function openLink(value) {
         alert('Server is currently under development')
     }
     if (value == "second") {
-        window.location.href = "https://discord.gg/";
+        window.location.href = "https://discord.gg/SjANJ5ngpF";
     }
     if (value == "third") {
-        window.location.href = "ts3server://";
+        // window.location.href = "ts3server://";
+        alert('Not Implemented yet!')
     }
     if (value == "start") {
-        window.location.href = "index.html";
+        // window.location.href = "index.html";
+        alert('Not Implemented yet!')
     }
     if (value == "about") {
-        window.location.href = "about.html";
+        // window.location.href = "about.html";
+        alert('Not Implemented yet!')
     }
     if (value == "contact") {
-        window.location.href = "contact.html";
+        // window.location.href = "contact.html";
+        alert('Not Implemented yet!')
     }
     if (value == "apply") {
-        window.location.href = "apply.html";
+        // window.location.href = "apply.html";
+        alert('Not Implemented yet!')
     }
     if (value == "imprint") {
-        window.location.href = "imprint.html";
+        // window.location.href = "imprint.html";
+        alert('Not Implemented yet!')
     }
     if (value == "partner") {
-        window.location.href = "partner.html";
+        // window.location.href = "partner.html";
+        alert('Not Implemented yet!')
     }
     if (value == "rules" || value == "whitelist") {
         alert('Not Implemented yet!')
