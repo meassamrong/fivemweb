@@ -1,5 +1,5 @@
 
-<div class="logo">KHMER EMPIRE</div>
+<div class="logo"><img src="img/myLogo.png" alt=""></div>
 <ul class="menu">
     <li class="menuitem" onclick="openLink('start')" style="border-color: #3ca918">Start</li>
     <li class="menuitem" onclick="openLink('about')">About</li>

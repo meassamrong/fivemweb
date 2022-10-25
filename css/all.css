@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Russo+One|Staatliches&display=swap');
-
+*{
+cursor: none;
+}
+body {
+    overflow: hidden;
+    animation: fadein 1s;
+}
 @keyframes fadein {
     0% {
         opacity: 0;
@@ -11,12 +17,20 @@
         opacity: 1;
     }
 }
-
-body {
-    background: url(../img/background.png);
-    background-size: cover;
-    margin: 0vw;
-    animation: fadein 1s;
+#cursor {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    z-index: 10000;
+    transform:rotate(90deg);
+    filter: invert(1);
+}
+.backgroundImg img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    filter: blur(1px);
 }
 
 ::-webkit-scrollbar {
