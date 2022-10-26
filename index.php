@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khmer Epire</title>
+    <title>KHMER EMPIRE RP</title>
+    <link rel="icon" type="image/x-icon" href="./img/fav-icon.webp">
     <img id="cursor" src="img/caret-left-fill.svg" />
     <link rel="stylesheet" href="css/headers.css">
     <link rel="stylesheet" href="css/all.css">
@@ -67,10 +68,10 @@
                     <h4> <i class="bi bi-arrow-right-square"></i> Our Community</h4>
                 </div>
                 <ul>
-                    <li><a href="#"><i class="bi bi-discord"></i></a></li>
+                    <li><a href="https://discord.gg/fM4CaxBkbG" target="__blank"><i class="bi bi-discord"></i></a></li>
                     <li><a href="#"><i class="bi bi-youtube"></i></a></li>
                     <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                    <li><a href="#"><img src="img/FiveM-Logo.png" alt=""></a></li>
+                    <li><a href="https://servers.fivem.net/servers/detail/by4xel" target="__blank"><img src="img/FiveM-Logo.png" alt=""></a></li>
                 </ul>
             </div>
         </div>
