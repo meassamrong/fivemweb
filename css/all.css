@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Russo+One|Staatliches&display=swap');
 *{
-cursor: none;
+cursor: none  !important;
 }
 body {
     overflow: hidden;
@@ -21,7 +21,7 @@ body {
     width: 25px;
     height: 25px;
     position: fixed;
-    z-index: 10000;
+    z-index:999;
     transform:rotate(90deg);
     filter: invert(1);
 }
@@ -41,17 +41,17 @@ body {
     background-color: #3ca918;
 }
 
-a {
-    color: #3ca918;
+#loading {
+    z-index: 99999;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(143, 143, 143);
 }
-
-.menu {
-    list-style-type: none;
-    margin: 0vw;
-    padding: 0vw;
+#loading img{
     position: absolute;
-    width: 80vw;
-    height: 5vw;
-    left: 20vw;
-    line-height: 2vw;
-}
+    height: 80px;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
